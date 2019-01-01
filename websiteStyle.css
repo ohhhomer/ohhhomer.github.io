@@ -36,12 +36,42 @@ h3{
 }
 
 #content{
-	min-height:500px;
-	width:1000px;
+	min-height:660px;
+	display: inline-block;
+	width:1160px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: lightgray;
-	text-align: justify;
+	background-color: black;
+	text-align: center;
+}
+
+#personal{
+	background-color: red;
+	min-height: 200px;
+	width: 350px;
+
+}
+
+#experience{
+	float: left;
+	background-color: green;
+	min-height: 200px;
+	width: 350px;
+
+}
+
+#development{
+	background-color: yellow;
+min-height: 200px;
+	width: 350px;
+
+}
+
+#otherSkills{
+	background-color: blue;
+min-height: 200px;
+	width: 350px;
+	
 }
 
 #contactInfo{
@@ -63,5 +93,18 @@ h3{
 .social:hover{
 	cursor: pointer;
 }
+
+.info{
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 250px;
+	width: 500px;
+	border: solid 40px;
+	border-color: lightgray;
+	background-color: #ef8827;
+}
+
+
 
 
